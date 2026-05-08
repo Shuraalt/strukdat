@@ -56,7 +56,7 @@ void cetak() {
 int main() {
     int pil; string n; char c;
     do {
-        cout << "\n[TAKE HOME - MENU ANTREAN DLLC]\n1. Tambah Nasabah\n2. Panggil (Hapus)\n3. Lihat Antrean\n0. Keluar\nPilih: ";
+        cout << "\n[ --- MENU ANTREAN --- ]\n1. Tambah Nasabah\n2. Panggil (Hapus)\n3. Lihat Antrean\n0. Keluar\nPilih: ";
         cin >> pil;
         if (pil == 1) {
             cout << "Nama: "; cin >> n;
